@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>
+        Institut Teknologi Del
+    </title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon">
+                    <img src="img/logo.jpg" alt="Deskripsi Gambar" style="height: 40px;">
+                </div>
+                <div class="sidebar-brand-text mx-3"> DEL </div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+
+
+
+
+
+
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Interface
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <!-- Nav Item - Lembaga -->
+            <li class="nav-item">
+                <a class="nav-link" href="Pengumuman.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Pengumuman</span></a>
+            </li>
+
+            <!-- Nav Item - Lembaga -->
+            <li class="nav-item">
+                <a class="nav-link" href="Lembaga.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Lembaga</span></a>
+            </li>
+
+            <!-- Nav Item - Program Pendidikan -->
+            <li class="nav-item">
+                <a class="nav-link" href="Pendidikan.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Pendidikan</span></a>
+            </li>
+
+             <!-- Nav Item - Fasilitas -->
+             <li class="nav-item">
+                <a class="nav-link" href="Fasilitas.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Fasilitas</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Sidebar Message -->
+        
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                      
+
+                        <!-- Nav Item - Messages -->
+                       
+
+                        
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                                <img class="img-profile rounded-circle"
+                                    src="userprofile.jpg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                <a class="nav-link" href="Pengumuman.html"></a>
+                                                <h3>Pengumuman</h3></div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">15</div>
+                                            
+                                        </div>
+                                        <div class="col-auto">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                <a class="nav-link" href="Lembaga.html"></a>
+                                                <h3>Lembaga</h3></div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">9</div>
+                                            
+                                        </div>
+                                        <div class="col-auto">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <a class="nav-link" href="Fasilitas.html"></a>
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1"><h3>Fasilitas</h3> 
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">10</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pending Requests Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-warning shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                                <a class="nav-link" href="Pendidikan.html"></a>
+                                                <h3>Pendidikan</h3></div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">8</div>
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    
+ <!-- Page Heading -->
+ <div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 text-gray-800">Berita Terkini</h1>
+</div>
+<br><a href="view.html"><button class="btn btn-primary btn-sm" style="width: 10em; height: 35px; margin-left: 13px;">+ Create</button></a>
+<!-- Content Row -->
+<div class="row">
+
+    <!-- Earnings (Monthly) Card Example -->
+     <!-- Page Heading -->
+ 
+    <div class="col-md-11 ml-3 text-center">
+        <hr>
+        <table class="table table-striped" border="3">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Judul</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">Tanggal</th>
+                    <th scope="col">Gambar</th>
+                    <th scope="col">Isi</th>
+                    <th scope="col">Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row mr-1">1</th>
+                    <td>
+                        <p>Wisuda 398 Lulusan Institut Teknologi Del</p>
+                    </td>
+                    <td>By admin</td>
+                    <td>September 25 2023</td>
+                    <td><img src="lulus.jpg" style="width: 50%; height: 150px; margin-left: 13px;"></td>
+                    <td>
+                        <p>
+                            Pada Hari Sabtu 23 September 2023, Institut Teknologi Del melaksanakan Wisuda untuk 398 Mahasiswa Sarjana dan Diploma. 
+                            Turut hadir Bapak Dr. Honoris Causa Ir. Airlangga Hartarto, MBA, MMT (Menteri Koordinator Bidang Perekonomian Republik Indonesia), 
+                            Bapak Rionald Silaban (Direktorat Jendral Kekayaan Negara),  Bapak Jend. TNI (Purn.) Luhut Binsar Pandjaitan, M.P.A (Ketua Pembina Yayasan Del), 
+                            Ibu Intan Simanjuntak (Ketua Pengurus Yayasan Del), dan tamu undangan lainnya. Kegiatan Wisuda ini dilaksanakan di Gedung Serba Guna Yayasan Del 
+                            dengan tema “Fostering Collaboration and Innovation towards Research Excellence”.
+                        </p>
+                    </td>
+                    <td>
+                        <a href="view.html"><button class="btn btn-primary btn-sm">View</button></a>
+                        <a href="edit.html"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+                    </td>
+                </tr>
+    
+    
+                <tr>
+                    <th scope="row mr-1">2</th>
+                    <td>
+                        <p>Pengukuhan 483 Mahasiswa IT Del Angkatan XXIII dan Dies Natalis ke XXII</p>
+                    </td>
+                    <td>By admin</td>
+                    <td>September 25 2023</td>
+                    <td><img src="lulus.jpg" style="width: 50%; height: 150px; margin-left: 13px;"></td>
+                    <td>
+                        <p>
+                            Sitoluama, 22 September 2023 Institut Teknologi Del menyelenggarakan Acara Pengukuhan Mahasiswa Baru 
+                            Angkatan XXIII dan Dies Natalis ke XXII. Kegiatan ini dihadiri oleh Ketua Pembina Yayasan Del, 
+                            Bapak Luhut Binsar Pandjaitan dan Ibu Devi Pandjaitan, Ketua Pengurus Yayasan Del, Ibu Intan Simanjuntak,
+                            Rektor IT Del Bapak Dr. Arnaldo Marulitua Sinaga, S.T., M.InfoTech, Senat akademik Prof. Roberd Saragih, 
+                            Ketua supervisor Habibie Center Ilham Akbar Habibie, Dirjen Kekayaan Negara Rionald Silaban, 
+                            CEO PT. Privy Marshall Pribadi, Wakil Ketua CNGR Internasional Fu Peiwen, bersama orang tua mahasiswa dan 
+                            para undangan lainnya. Kegiatan ini dilaksanakan di Gedung Serba Guna Yayasan Del.
+                        </p>
+                    </td>
+                    <td>
+                        <a href="view.html"><button class="btn btn-primary btn-sm">View</button></a>
+                        <a href="edit.html"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+                    </td>
+                </tr>
+    
+    
+                <tr>
+                    <th scope="row mr-1">3</th>
+                    <td>
+                        <p>Job Fair Institut Teknologi Del di Pekan Raya Sumatera Utara (PRSU) 2023</p>
+                    </td>
+                    <td>By admin</td>
+                    <td>July 4 2023</td>
+                    <td><img src="jobfair.jpeg"style="width: 50%; height: 150px; margin-left: 13px;"></td>
+                    <td>
+                        <p>
+                            Horas Warga Sumatera Utara!!!
+                            Dinas Ketenagakerjaan Provinsi Sumatera Utara kini bekerja sama dengan beberapa perusahaan dan 
+                            institut yang menyediakan lowongan pekerjaan. Salah satunya adalah Institut Teknologi Del. 
+                            Melalui acara JOB FAIR 2023 ini akan menjadi kesempatan baik untuk Anda bertemu dengan kami 
+                            dari Institut Teknologi Del yang menyediakan berbagai peluang kerja.
+                        </p>
+                    </td>
+                    <td>
+                        <a href="view.html"><button class="btn btn-primary btn-sm">View</button></a>
+                        <a href="edit.html"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+                        
+                    </td>
+                    <hr>
+
+                </tr>
+            </tbody>
+    
+        </table>
+    </div> 
+</div>
+
+
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 text-gray-800">Berita SPMB</h1>
+</div>
+<br><a href="view.html"><button class="btn btn-primary btn-sm" style="width: 10em; height: 35px; margin-left: 13px;">+ Create</button></a>
+ 
+<div class="col-md-11 ml-3 text-center">
+    <hr>
+    <table class="table table-striped" border="3">
+        <thead>
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">Judul</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Tanggal</th>
+                <th scope="col">Gambar</th>
+                <th scope="col">Isi</th>
+                <th scope="col">Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row mr-1">1</th>
+                <td>
+                    <p>Informasi PMB Jalur Sertifikat Ujian Tulis Berbasis Komputer (Sertifikat UTBK) 2023/2024 & Jadwal Pelaksanaan Kegiatan</p>
+                </td>
+                <td>By admin</td>
+                <td>September 25 2023</td>
+                <td><img src="lulus.jpg" style="width: 50%; height: 150px; margin-left: 13px;"></td>
+                <td>
+                    <p>
+                        Sertifikat UTBK adalah salah satu jalur penerimaan mahasiswa baru yang diselenggarakan oleh Institut Teknologi Del (IT Del), 
+                        melalui sertifikat UTBK yang diselenggarakan oleh Lembaga Tes Masuk Perguruan Tinggi Negeri (LTMPT). 
+                        Pendaftaran sebagai peserta Seleksi Program Sertifikat UTBK IT Del dilakukan secara daring dengan 
+                        membuka laman http://spmbapp.del.ac.id dan mengisi/melengkapi formulir isian yang tersedia sesuai dengan petunjuk.
+                    </p>
+                </td>
+                <td>
+                    <a href="view.html"><button class="btn btn-primary btn-sm">View</button></a>
+                    <a href="edit.html"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+                </td>
+            </tr>
+
+
+            <tr>
+                <th scope="row mr-1">2</th>
+                <td>
+                    <p>Prosedur Pelaksanaan Tes Akademik Jalur USM3 IT Del Tahun Akademik 2023/2024</p>
+                </td>
+                <td>By admin</td>
+                <td>September 25 2023</td>
+                <td><img src="lulus.jpg" style="width: 50%; height: 150px; margin-left: 13px;"></td>
+                <td>
+                    <p>
+                        Peserta yang asal sekolah TOBA, mengikuti Tes Akademik secara ONSITE di Kampus Institut Teknologi Del.
+                        Peserta yang sekolah di MEDAN, mengikuti Tes Akademik secara ONSITE di Universitas HKBP Nommensen Medan.
+                        Peserta yang sekolah di LUAR SUMATERA UTARA, dapat mengikuti Tes Akademik secara ONLINE Via ZOOM.
+                    </p>
+                </td>
+                <td>
+                    <a href="view.html"><button class="btn btn-primary btn-sm">View</button></a>
+                    <a href="edit.html"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+                </td>
+            </tr>
+
+
+            <tr>
+                <th scope="row mr-1">3</th>
+                <td>
+                    <p>Job Fair Institut Teknologi Del di Pekan Raya Sumatera Utara (PRSU) 2023</p>
+                </td>
+                <td>By admin</td>
+                <td>July 4 2023</td>
+                <td><img src="jobfair.jpeg"style="width: 50%; height: 150px; margin-left: 13px;"></td>
+                <td>
+                    <p>
+                        Horas Warga Sumatera Utara!!!
+                        Dinas Ketenagakerjaan Provinsi Sumatera Utara kini bekerja sama dengan beberapa perusahaan dan 
+                        institut yang menyediakan lowongan pekerjaan. Salah satunya adalah Institut Teknologi Del. 
+                        Melalui acara JOB FAIR 2023 ini akan menjadi kesempatan baik untuk Anda bertemu dengan kami 
+                        dari Institut Teknologi Del yang menyediakan berbagai peluang kerja.
+                    </p>
+                </td>
+                <td>
+                    <a href="view.html"><button class="btn btn-primary btn-sm">View</button></a>
+                    <a href="edit.html"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+                    
+                </td>
+                <hr>
+
+            </tr>
+        </tbody>
+
+    </table>
+</div> 
+</div>
+<div class="col-md-11 ml-3 text-center">
+
+<hr>
+<table class="table table-striped" border="2">
+    <thead>
+        <tr>
+            <th scope="col">Visi</th>
+            <th scope="col">Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>    
+            
+            <td>
+                <p>Menjadi lembaga pendidikan tinggi yang unggul dan berperan sebagai agen pembaharu dan pelopor 
+                    dalam pengembangan dan pemanfaatan teknologi bagi kemajuan dan kesejahteraan bangs</p>
+            </td>
+            <td>
+                <a href="view.html"><button class="btn btn-primary btn-sm">View</button></a>
+                <a href="edit.html"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</hr>
+</div>
+
+
+<div class="col-md-11 ml-3 text-center">
+
+<hr>
+<table class="table table-striped" border="2">
+    <thead>
+        <tr>
+            <th scope="col">Misi</th>
+            <th scope="col">Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>    
+            
+            <td>
+                <p>Menyelenggarakan dan mengembangkan proses pendidikan yang unggul, berkesinambungan, 
+                    dan bermanfaat bagi masyarakat
+                <br>Mengembangkan, menciptakan dan menyebarkan ilmu pengetahuan dan teknologi
+                <br>Melaksanakan pembaharuan kemampuan, keterampilan, serta penerapan dan pengembangan rekayasa karya masyarakat</p>
+            </td>
+            <td>
+                <a href="view.html"><button class="btn btn-primary btn-sm">View</button></a>
+                <a href="edit.html"><button class="btn btn-outline-primary btn-sm">Edit</button></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</hr>
+</div>
+
+
+
+
+                       
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Kesia</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
